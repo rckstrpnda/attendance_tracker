@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+import React from 'react';
+import  Admin  from './component/Admin.jsx';
+import CreateAccount from './component/createAccount.jsx';
+import SignUpPage from './component/signup.jsx';
+import LoginPage from './component/login.jsx';
+import ProfilePage from './component/profile.jsx';
+import Scanner from './component/scanner.jsx';
+function App(){
+ 
+        return (
+            <CreateAccount></CreateAccount>
+        );
+    }
+  
+export default App
